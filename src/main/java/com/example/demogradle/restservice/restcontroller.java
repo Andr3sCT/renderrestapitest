@@ -1,4 +1,4 @@
-package com.example.demo.restservice;
+package com.example.demogradle.restservice;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class restcontroller {
 
-    @GetMapping("/")
+    @GetMapping("")
     public String getName() {
         return "José";
     }
