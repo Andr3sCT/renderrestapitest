@@ -1,5 +1,5 @@
 # Utiliza una imagen base con OpenJDK 17 y Maven 3.8.6-slim
-FROM gradle:7.4.0-jdk17 AS build
+FROM gradle:7.6-jdk17 AS build
 
 # Establece el directorio de trabajo
 WORKDIR /app
